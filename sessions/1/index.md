@@ -9,8 +9,8 @@ HTML stands for *Hyper Text Markup Language*. As a "*markup language*", HTML is 
 ### What HTML *Isn't*?
 Before digging in, let's clarify what HTML is not:
 
-- Images, audio, nor video content. However, HTML can be used to display these things. 
-- HTML is not a classical programming language. However, a lot of web development is using programming languages to generate HTML content.
+- Images, audio, nor video content are not HTML. However, HTML can be used to display these things. 
+- HTML is not a programming language. However, a lot of web development involves using programming languages to generate HTML content.
 - In most cases, HTML should not be used for formatting content. Things like font formatting, colors, animations, etc are left up to CSS, which will be covered in Session 3.
 
 **Takeaway:** HTML is a standardized language for displaying content on the web. 
@@ -64,7 +64,7 @@ For example, the browser will visually render a `strong` tag with a bold font.
 
 is rendered as:
 ```
-*This is bold*
+**This is bold**
 
 Similarly, the following is an `unordered` list:
 ```
