@@ -61,9 +61,9 @@ For example, the browser will visually render a `strong` tag with a bold font.
 
 ```
 <strong>This text is bold</strong>
-
-is rendered as:
 ```
+is rendered as:
+
 **This is bold**
 
 Similarly, the following is an `unordered` list:
