@@ -18,7 +18,7 @@ Before digging in, let's clarify what HTML is not:
 ---
 
 ## Section 2. The Basics
-The absolute foundation of HTML is the *Element*. HTML elements are often called HTML *Tags*) and the terms may be used interchangeably.
+The absolute foundation of HTML is the *Element*. HTML elements are often called HTML *Tags* and the terms may be used fairly interchangeably.
 
 Elements can wrap text or other elements to give them meaning. It is common lingo is to refer to the contents of an element as *children* with the element being the *parent* of the *children*. These child elements can, themselves, contain text or other elements. 
 
