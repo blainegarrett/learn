@@ -116,11 +116,11 @@ The `sup` and `sub` tags are used to visually render text as *superscript* and *
 Example:
 ```
 2<sup>2</sup> + 3<sup>3</sup> = 31
-The first version of HTML was written by Tim Berners-Lee in 1993<sub>1</sub> 
+The first version of HTML was written by Tim Berners-Lee in 1993<sub> <a href= "https://en.wikipedia.org/wiki/Tim_Berners-Lee">1</a></sub> 
 ```
 >2<sup>2</sup> + 3<sup>3</sup> = 31
 >
->The first version of HTML was written by Tim Berners-Lee in 1993<sub>(1)</sub> 
+>The first version of HTML was written by Tim Berners-Lee in 1993<sub><a href="https://en.wikipedia.org/wiki/Tim_Berners-Lee">1</a></sub> 
 
 ## Quotations
 To capture the semantic meaning When displaying a quote, use the `blockquote` tag for long quotes and `q` for shorter quotes. Browsers will typically display the former with an indent and display the later wrapped in quote marks.
@@ -153,18 +153,18 @@ The `span` tag is a simple wrapper tag. It doesn't impose any semantic meaning n
 
 Example:
 ```
-<span>This is a bit of text</span>
+<span>This is a bit of text</span><span>This is a bit of text</span>
 ```
-> <span>This is a bit of text</span>
+> <span>This is a bit of text</span><span>This is a bit of text</span>
 
 ### Div
 The `div` tag is much like the span tag in that it is a wrapper with no real semantic meaning. However, unlike the `span` tag, it does create a visual line break after the contents.
 
 Example:
 ```
-<span>This is a block of text</span>
+<div>This is a block of text</div><div>This is a block of text</div>
 ```
-> <span>This is a block of text</span>
+> <div>This is a block of text</div><div>This is a block of text</div>
 
 
 ### Paragraphs
@@ -214,7 +214,7 @@ The starting number and the bullet can be visually controlled via the *start* an
 
 
 ```
-<ol type="A">
+<ol type="I" start="10">
   <li>Item 1</li>
   <li>Item 2</li>
 </ol>
