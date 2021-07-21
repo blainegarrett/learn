@@ -115,11 +115,11 @@ The `sup` and `sub` tags are used to visually render text as *superscript* and *
 Example:
 ```
 2<sup>2</sup> + 3<sup>3</sup> = 31
-The first version of HTML was written by Tim Berners-Lee in 1993<sub>1</sub> 
+The first version of HTML was written by Tim Berners-Lee in 1993<sub> <a href= "https://en.wikipedia.org/wiki/Tim_Berners-Lee">1</a></sub> 
 ```
 >2<sup>2</sup> + 3<sup>3</sup> = 31
 >
->The first version of HTML was written by Tim Berners-Lee in 1993<sub>(1)</sub> 
+>The first version of HTML was written by Tim Berners-Lee in 1993<sub><a href="https://en.wikipedia.org/wiki/Tim_Berners-Lee">1</a></sub> 
 
 ## Quotations
 To capture the semantic meaning When displaying a quote, use the `blockquote` tag for long quotes and `q` for shorter quotes. Browsers will typically display the former with an indent and display the later wrapped in quote marks.
