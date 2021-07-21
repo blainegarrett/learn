@@ -6,6 +6,6 @@ A practical resource for teaching html, css, javascript to non-developers
 - [Session 2: Basic Content Formatting](./sessions/2/index.md)
 
 
-
+Here's a change. 
 
 
