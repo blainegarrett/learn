@@ -64,7 +64,7 @@ For example, the browser will visually render a `strong` tag with a bold font.
 ```
 is rendered as:
 
-**This is bold**
+> **This is bold**
 
 Similarly, the following is an `unordered` list:
 ```
@@ -74,8 +74,8 @@ Similarly, the following is an `unordered` list:
 </ul>
 ```
 Most browsers will render this as a nice visual bullet list:
-* First Item
-* Second Item
+> * First Item
+> * Second Item
 
 
 **Takeaway**
@@ -105,7 +105,7 @@ Browsers will render an image when they interpret an `img` tag. However, there n
 ```
 
 Most browsers will display:
-![](https://lorempixel.com/400/200/animals/4/)
+> ![](https://lorempixel.com/400/200/animals/4/)
 
 
 Note: The `src` attribute is specific to the `img` element (and a select few other elements). However, putting an `src` attribute on a `h1` header element doesn't make sense. 
@@ -117,3 +117,9 @@ Note: Unrelated to attributes, notice that the `img` doesn't have any children u
 
 ## Wrapping Up
 In this session we learned about the basic structure of HTML elements. In the next session, we will introduce some of the most commonly used HTML elements.
+
+
+Note:
+Emaphasize that html is a glossary of tags and attributes. While you can type anything, they don't really work. Most of HTML is just memorizing the tags and what they do.
+
+Add links to the full glossary.

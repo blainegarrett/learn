@@ -58,6 +58,7 @@ Links (officially known as *hyperlinks*) are a foundational concept on the web. 
 
 In the most common usage, they require a `href` *attribute*. The `href` attribute (standing for *hypertext reference*) is the `url` to where you want the user to navigate to when clicking the link. 
 
+
 Example:
 ```
 Visit <a href="https://www.mplsart.com">MPLSART</a> to find local art events.
