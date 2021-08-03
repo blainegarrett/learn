@@ -44,7 +44,7 @@ As illustrated in the example above, HTML tags have an *opening* tag and a *clos
 ## Section 3. Semantic Meaning
 There is a standard set of HTML tags. These are defined by an organization conceptually similar to the ones that define building codes or standard paper sizes. These standards change over time, but for the most part web browsers keep up to date with the latest standard.
 
-Each HTML tag has a specific purpose in life. There are tags to embed an image or video. There are tags to make lists of things. There is even a tag to quote something. There are many tags, but each has a specific purpose.
+Each HTML tag has a specific purpose in life. There are tags to embed an image or video. There are tags to make lists of things. There is even a tag to quote something. There are many tags, but each has a specific purpose. Here is an exhaustive list of [all modern HTML tags](https://www.w3schools.com/TAGS/default.ASP).
 
 
 **Example:**
@@ -116,10 +116,6 @@ Note: Unrelated to attributes, notice that the `img` doesn't have any children u
 
 
 ## Wrapping Up
-In this session we learned about the basic structure of HTML elements. In the next session, we will introduce some of the most commonly used HTML elements.
+In this session we learned about the basic structure of HTML elements. If you are understanding the content so far, then you are well on your way to understanding HTML. From here on out, HTML is mostly memorizing the [defined list of tags](https://www.w3schools.com/TAGS/default.ASP) and attributes and understanding what each does. 
 
-
-Note:
-Emaphasize that html is a glossary of tags and attributes. While you can type anything, they don't really work. Most of HTML is just memorizing the tags and what they do.
-
-Add links to the full glossary.
+In the next session, we will introduce some of the most commonly used HTML elements. 

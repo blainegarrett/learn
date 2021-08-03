@@ -1,57 +1,25 @@
-# Session 2: Basic Content Formatting
+# Session 3: Embedding Content
 
 ## Overview
-In this session we'll introduce some HTML tags for basic content formatting. If you use Google Docs or the text editor in something like Wordpress, these tags should be fairly familiar. Understanding these tags will give you the basics for understanding how these tools manipulate HTML and will allow you to manually make changes to content when needed.
+In the previous session, we introduced some basic HTML for content. In it, we introduced the `a` tag which is a big part of the magic of linking different chunks of HTML together to create the <b>🎺 WORLD WIDE WEB 🎺</b>. Another big part is the ability to embed other content into HTML like images, audio, and video.
 
-## Commonly Used Formatting
+In this session we'll introduce how to embed these types of content into your HTML and showcase some other common embed types you might run into in the wild.
 
-### Emphasis 
-To give a piece of text emphasis, you can use the `em` HTML tag. Semantically, this means the contents are distinguished in the context of the surrounding text. In practice, browsers will render this text with an italic font and a screen reader will pronounce the words with an emphasis, using verbal stress.
+## Before We Begin
+### Accessibility Note
 
-Example:
+### Security
 
-```
-This is <em>emphasized</em> text.
-```
-This will render as:
-
-> This is <em>emphasized</em> text.
-
-### Strong 
-To give a piece of text a "strong" emphasis, you can use the `strong` HTML tag. Semantically, this means the text is more important in the context of the surrounding text. In practice, browsers will render this content in a bolder font and screen readers will pronounce the words with an extra gusto.
-
-Example:
-
-```
-This is <strong>very important</strong> text.
-```
-This will render as:
-
-> This is <strong>very important</strong> text.
+## Embed types
+### Images 
 
 
-### Semantic Note
-Note: Alternative tags for `strong` and `em` are the `b` tag and `i` tag respectively. They can be used interchangeably for visual purposes and are quite common "in the wild". However, the semantic meaning is ignored when using the `b` or `i` tags and, for example, screen readers won't pronounce the text with the same emphasis as it would for the `strong` and `em` tag. It is just something to keep in mind.
+### Audio
 
-Example:
-```
-This is <i>italic</i> text.
-This is <b>bold</b> text.
-```
+### Video
 
-### Underline
-Another common HTML tag is the `u` tag. In practice, it will give the contents an underline. 
+## Youtube 
 
-Example:
-
-```
-This is <u>underlined</u> text.
-```
-This will render as:
-
-> This is <u>underlined</u> text.
-
-Note: Use this tag rarely as it can be confused with the default visual rendering of links. Additionally, it has no real semantic meaning and is mostly used for display purposes.
 
 ### Links
 Links (officially known as *hyperlinks*) are a foundational concept on the web. When interacted with (clicked, etc) they can take you to a new piece of content or website. The tag we use to make a hyperlink is the `a` tag. 
