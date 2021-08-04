@@ -29,7 +29,8 @@ This will display as:
 > <img src="https://lorempixel.com/400/200/animals/4/" alt="An Animal" />
 
 <br />
-** File Types **
+
+**File Types**<br />
 Only certain types of files can be embedded into HTML. The most common are:
 
 - png (Portable Network Graphics)
