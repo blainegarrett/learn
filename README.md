@@ -7,6 +7,7 @@ A practical resource for teaching html, css, javascript to non-developers
 - [Session 2: Basic Content Formatting](./sessions/2/index.md)
 - [Session 3: Embedding Content](./sessions/3/index.md)
 - [Session 4: URLs and Links](./sessions/4/index.md)
+- [Session 5: Special Characters](./sessions/5/index.md)
 - [Playground](./Playground/Index.md)
 
 
