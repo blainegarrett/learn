@@ -2,10 +2,10 @@
 
 
 ## Overview
-Now that we have a basic understanding of HTML and some common tags, you might be asking what happens if we need to show HTML syntax in your rendered HTML. No? Perhaps even less so, you might be wondering how to use characters used for HTML syntax. What about emojis? In this session we'll go down a small rabbit hole.
+Now that we have a basic understanding of HTML and are familiar some common tags, you might be asking what happens if we need to show HTML syntax in your rendered HTML. No? Perhaps even less so, you might be wondering how to use characters used for HTML syntax. What about emojis? In this session we'll go down a small rabbit hole.
 
 ### Why is this a problem?
-When you write HTML, the browser tries to interpret what you wrote into valid HTML markup. When it runs across characters that might otherwise be used in HTML markup, the browser can get confused thinking it might be HTML. The browser may render the output unexpectedly.  
+When you write HTML, the browser tries to interpret what you wrote into valid HTML markup. When it runs across characters that might otherwise be used in HTML markup, the browser can get confused thinking it might be HTML. The browser may render the output unexpectedly.
 
 **Common Problematic Characters**
 - `<` -  less than sign
@@ -24,7 +24,7 @@ The format is mostly straight forward: an ampersand, followed by the *entity nam
 
 <br />
 
-Assuming the *entity name* for a double quote is `quot`, then to make a quote, we write `&amp;`. This works for the other characters too.
+Assuming the *entity name* for a double quote is `quot`, then to make a quote, we write `&quot;`.
 
 Example:
 ```
@@ -32,14 +32,15 @@ Call me &quot;Ishmael&quot;
 ```
 becomes:
 > Call me &quot;Ishmael&quot;
-
-or 
+<br />
+This works for the other characters too:
 ```
 0 &lt; n &gt; 100
 ```
 becomes:
 > 0 &lt; n &gt; 100
 
+<br />
 The reason the ampersand doesn't work, is that it is the prefix for the encoding syntax. So when the browser runs into an `&` it tries to look for the above syntax and may do unexpected things if it doesn't find it. To use an ampersand, use the following syntax:
 
 ```
@@ -48,7 +49,7 @@ I prefer peanut M&amp;Ms to the regular kind
 
 > I prefer peanut M&amp;Ms to the regular kind 
 
-
+<br />
 <br />
 
 ### ASCII, Unicode, and Emojis
@@ -109,8 +110,8 @@ As mentioned before, all data eventually turns into binary data. One *bit* of bi
 
 The numbers 0-5: 
 ```
-0,
-1,
+0
+1
 10
 11
 100
@@ -125,23 +126,23 @@ Hexadecimal numbers are base 16. One bit of hexidecimal data can have up to 16 d
 
 The numbers 1 - 17 in hexidecimal:
 ```
-0,
-1,
+0
+1
 ...
-9, 
-A, // 10 in decimal
-B, 
-C, 
-D, 
-E, 
-F,
+9 
+A // 10 in decimal
+B 
+C 
+D 
+E 
+F
 10, // 16 in decimal
-11, 
-12,
-13,
-14,
-15,
-16,
+11 
+12
+13
+14
+15
+16
 17
 ```
 
