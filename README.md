@@ -8,6 +8,7 @@ A practical resource for teaching html, css, javascript to non-developers
 - [Session 3: Embedding Content](./sessions/3/index.md)
 - [Session 4: URLs and Links](./sessions/4/index.md)
 - [Session 5: Special Characters](./sessions/5/index.md)
+- [Session 6: Introduction to CSS](./sessions/6/index.md)
 - [Playground](./Playground/Index.md)
 
 
@@ -15,9 +16,14 @@ A practical resource for teaching html, css, javascript to non-developers
 
 
 
-Upcoming HTML Sections
-- Special Characters
+Upcoming Sections
 - Meta Tags
+- Box Model (CSS)
+- Fonts
+- Basic Positioning
+- Mouse Overs
+- Animations
+
 
 
 
