@@ -9,16 +9,13 @@ A practical resource for teaching html, css, javascript to non-developers
 - [Session 4: URLs and Links](./sessions/4/index.md)
 - [Session 5: Special Characters](./sessions/5/index.md)
 - [Session 6: Introduction to CSS](./sessions/6/index.md)
+- [Session 7: Box Model](./sessions/7/index.md)
+- [Session 8: Positioning](./sessions/8/index.md)
 - [Playground](./Playground/Index.md)
-
-
-
-
 
 
 Upcoming Sections
 - Meta Tags
-- Box Model (CSS)
 - Fonts
 - Basic Positioning
 - Mouse Overs

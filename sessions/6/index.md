@@ -248,3 +248,4 @@ We now understand some basics of CSS and how to apply CSS to our pages. If you g
 
 ## Homework
 In the playground, make a HTML list of names of real cities and a HTML list of fictitious cities. Make the real cities have blue text and the fictitious have green text. Using class names, make each of the cities you have been bold and each of the places you want to go underlined - both using CSS declarations. Bonus: figure out how to make the blue and green colors not god awful looking using the hex color syntax (will require research not covered above). 
+
