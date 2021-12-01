@@ -4,11 +4,11 @@ In this series, we will learn practical skills for interacting with databases. T
 
 
 ## What is a Database?
-Loosly defined, a database is an organized collection of data stored and accessed electronically from a computer system. A spreadsheet could be considered a database as could a website. However, more commonly, databases refer to a specific system of data storage and retrival. These typically run on their own server and are specifically optimized for data retrival and often complex querying. 
+Loosely defined, a database is an organized collection of data stored and accessed electronically from a computer system. A spreadsheet could be considered a database as could a website. However, more commonly, databases refer to a specific system of data storage and retrieval. These typically run on their own server and are specifically optimized for data retrieval and often complex querying. 
 
 
 ## Types of Databases
-There are several types of databases - the most popular include *relational* databases, *document/object* databases and *graph* databases. Each exist to address a specific problem. For this series, we will focus specicifically on relational databases.
+There are several types of databases - the most popular include *relational* databases, *document/object* databases and *graph* databases. Each exist to address a specific problem. For this series, we will focus specifically on relational databases.
 
 ## What is a Relational Database
 Relational databases may contain multiple *tables* consisting of rows of data. These tables can *relate* to each other in various ways that allow us to perform powerful queries and maintain data integrity. 

@@ -21,5 +21,5 @@ A practical resource for teaching html, css, javascript to non-developers
 # Databases
 - [Introduction](./databases/introduction.md)
 - [Session 1: Table Columns and Data Types](./databases/sessions/1/index.md)
-- [Session 2: SQL Introduction](./databases/sessions/2/index.md)
+- [Session 2: Basic Querying with SQL](./databases/sessions/2/index.md)
 
